@@ -68,13 +68,5 @@ function calculate(){
         <p class="resultP">${Math.ceil(totalDrinks/2000)} bottles of Soda/Water</p>
     </div>
     `
-    result.style.boxSizing = 'border-box'
-    result.style.marginLeft = '55%'
-    result.style.marginTop = '30px'
-    result.style.backgroundColor = '#FFF'
-    result.style.width = '500px'
-    result.style.height = '230px'
-    result.style.borderRadius = '3%'   
-    result.style.padding = '10px'
-    result.style.fontFamily = '"Itim", cursive'
+    result.style.display = "block"
 }
