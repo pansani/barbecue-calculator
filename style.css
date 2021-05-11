@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #84ABEA;
+}
+.tittle{
+    font-family: 'Itim', cursive;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.img{
+    width: 580px;
+    height: 760px;
+    position: absolute;
+    margin-left: 30px;
+}
+.containerForm{
+    max-width: 500px;
+    height: 450px;
+    background-color: rgb(240, 245, 258);
+    background-size:cover ;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-left: 55%;
+    margin-top: 20px;
+    box-shadow: 4px 4px #00000F;
+}
+.tittleForm{
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #333333;
+    margin-top: 25px;
+    display: inline-block;
+    margin-bottom: 30px;
+    list-style-image: url(./assests/meat.png);
+}
+input{
+    width: 400px;
+    display: block;
+    border: none;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+button{
+    width: 400px;
+    border: none;
+    padding: 12px;
+    background-color: #000;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+/*js*/
+.result-info {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #000;
+    width: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.resultP{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
