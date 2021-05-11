@@ -58,8 +58,18 @@ button{
     color: #FFF;
     margin-top: 10px;
 }
-
 /*js*/
+#result{
+    width: 500px;
+    height: 230px;
+    border-radius: 3%;
+    padding: 10px;
+    font-family: 'Itim', cursive;
+    box-sizing: border-box;
+    margin-left: 55%;
+    margin-top: 30px;
+    background-color: #FFF;
+}
 .result-info {
     font-family: "Poppins", sans-serif;
     text-align: center;
@@ -72,4 +82,42 @@ button{
 .resultP{
     margin-bottom: 20px;
     font-size: 25px;
+}
+
+@media (max-width: 500px){
+    .img{
+        display: none;
+    }
+    .containerForm{
+        width: 330px;
+        height: 400px;
+        margin-left: 25px;
+        display: inline-block;
+    }
+    .tittleForm{
+        width: 130px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    input{
+        width: 270px;
+        margin-left: 20px;
+    }
+    button{
+        width: 260px;
+        margin-top: 0px;
+        margin-left: 27px;
+    }
+    #result{
+        display: none;
+        width: 330px;
+        height: 250px;
+        background-color: #FFF;
+        border-radius: 3%;
+        padding: 10px;
+        font-family: 'Itim', cursive;
+        box-sizing: border-box;
+        margin-left: 25px;
+        margin-top: 30px;
+    }
 }
